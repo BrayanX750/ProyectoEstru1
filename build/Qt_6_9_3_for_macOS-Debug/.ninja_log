@@ -1,0 +1,10 @@
+# ninja log v6
+1	292	1771291684492038882	ProyectoFinder_autogen/timestamp	6fd0835d5ae7c52a
+1	292	1771291684492038882	ProyectoFinder_autogen/mocs_compilation.cpp	6fd0835d5ae7c52a
+1	292	1771291684492038882	/Users/brayanpinel/Documents/ProyectoFinder/build/Qt_6_9_3_for_macOS-Debug/ProyectoFinder_autogen/timestamp	6fd0835d5ae7c52a
+1	292	1771291684492038882	/Users/brayanpinel/Documents/ProyectoFinder/build/Qt_6_9_3_for_macOS-Debug/ProyectoFinder_autogen/mocs_compilation.cpp	6fd0835d5ae7c52a
+295	622	1771291684509645202	CMakeFiles/ProyectoFinder.dir/main.cpp.o	b8e364b9fc1e54e5
+296	668	1771291684510030119	CMakeFiles/ProyectoFinder.dir/FileSystem.cpp.o	37f994c7bcc574ed
+295	946	1771291684509293368	CMakeFiles/ProyectoFinder.dir/ProyectoFinder_autogen/mocs_compilation.cpp.o	5195c70d60740995
+295	963	1771291684509842869	CMakeFiles/ProyectoFinder.dir/mainwindow.cpp.o	e51579c33033cad6
+963	1049	1771291685177134029	ProyectoFinder.app/Contents/MacOS/ProyectoFinder	70ed568effcd7eed

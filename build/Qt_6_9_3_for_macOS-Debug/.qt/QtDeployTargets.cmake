@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_ProyectoFinder_FILE /Users/brayanpinel/Documents/ProyectoFinder/build/Qt_6_9_3_for_macOS-Debug/ProyectoFinder.app/Contents/MacOS/ProyectoFinder)
+set(__QT_DEPLOY_TARGET_ProyectoFinder_TYPE EXECUTABLE)

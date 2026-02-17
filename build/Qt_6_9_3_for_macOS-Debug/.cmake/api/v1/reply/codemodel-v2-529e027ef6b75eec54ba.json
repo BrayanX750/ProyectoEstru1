@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-103c07294454b4799a43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ProyectoFinder",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ProyectoFinder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProyectoFinder-Debug-982828fa8fd5e271216c.json",
+					"name" : "ProyectoFinder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProyectoFinder_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProyectoFinder_autogen-Debug-7a60872cf13f8dc7bc1e.json",
+					"name" : "ProyectoFinder_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProyectoFinder_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProyectoFinder_autogen_timestamp_deps-Debug-93e98172b7b9924b2058.json",
+					"name" : "ProyectoFinder_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/brayanpinel/Documents/ProyectoFinder/build/Qt_6_9_3_for_macOS-Debug",
+		"source" : "/Users/brayanpinel/Documents/ProyectoFinder"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
