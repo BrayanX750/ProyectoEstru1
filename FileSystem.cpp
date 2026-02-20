@@ -1,6 +1,6 @@
 #include "FileSystem.h"
 #include <iostream>
-
+#include "FileNode.h"
 FileSystem::FileSystem() {
     // root is mandatory: "/"
     root = new DirectoryNode("/", 0);
@@ -180,4 +180,27 @@ static void printRecursive(const DirectoryNode* dir, int level) {
 void FileSystem::printTree() const {
     std::cout << "/\n";
     printRecursive(root, 1);
+}
+
+std::string FileSystem::getFullPath(Node* node) const {
+    if (node == 0) return "";
+
+    std::string path = "";
+    Node* current = node;
+
+    while (current != 0) {
+        if (current->getParent() == 0) {
+            // root
+            path = "/" + path;
+        } else {
+            path = current->getName() + "/" + path;
+        }
+        current = (Node*)current->getParent();
+    }
+
+    if (path.size() > 1 && path[path.size() - 1] == '/') {
+        path.erase(path.size() - 1, 1);
+    }
+
+    return path;
 }

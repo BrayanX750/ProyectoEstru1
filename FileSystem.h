@@ -2,7 +2,6 @@
 #define FILESYSTEM_H
 
 #include "DirectoryNode.h"
-#include "FileNode.h"
 #include <string>
 #include <vector>
 
@@ -17,6 +16,8 @@ private:
 public:
     FileSystem();
     ~FileSystem();
+
+    std::string getFullPath(Node* node) const;
 
     DirectoryNode* getRoot() const;
 

@@ -81,6 +81,14 @@ build CMakeFiles/ProyectoFinder.dir/FileSystem.cpp.o: CXX_COMPILER__ProyectoFind
   OBJECT_DIR = CMakeFiles/ProyectoFinder.dir
   OBJECT_FILE_DIR = CMakeFiles/ProyectoFinder.dir
 
+build CMakeFiles/ProyectoFinder.dir/Entega1Demo.cpp.o: CXX_COMPILER__ProyectoFinder_unscanned_Debug /Users/brayanpinel/Documents/ProyectoFinder/Entega1Demo.cpp || cmake_object_order_depends_target_ProyectoFinder
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ProyectoFinder.dir/Entega1Demo.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/brayanpinel/Documents/ProyectoFinder/build/Qt_6_9_3_for_macOS-Debug/ProyectoFinder_autogen/include -isystem /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib -isystem /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/mkspecs/macx-clang -isystem /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/include -isystem /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtWidgets.framework/Headers -isystem /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/ProyectoFinder.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProyectoFinder.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ProyectoFinder
@@ -89,7 +97,7 @@ build CMakeFiles/ProyectoFinder.dir/FileSystem.cpp.o: CXX_COMPILER__ProyectoFind
 #############################################
 # Link the executable ProyectoFinder.app/Contents/MacOS/ProyectoFinder
 
-build ProyectoFinder.app/Contents/MacOS/ProyectoFinder: CXX_EXECUTABLE_LINKER__ProyectoFinder_Debug CMakeFiles/ProyectoFinder.dir/ProyectoFinder_autogen/mocs_compilation.cpp.o CMakeFiles/ProyectoFinder.dir/main.cpp.o CMakeFiles/ProyectoFinder.dir/mainwindow.cpp.o CMakeFiles/ProyectoFinder.dir/FileSystem.cpp.o | /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtGui.framework/Versions/A/QtGui /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore || ProyectoFinder_autogen ProyectoFinder_autogen_timestamp_deps
+build ProyectoFinder.app/Contents/MacOS/ProyectoFinder: CXX_EXECUTABLE_LINKER__ProyectoFinder_Debug CMakeFiles/ProyectoFinder.dir/ProyectoFinder_autogen/mocs_compilation.cpp.o CMakeFiles/ProyectoFinder.dir/main.cpp.o CMakeFiles/ProyectoFinder.dir/mainwindow.cpp.o CMakeFiles/ProyectoFinder.dir/FileSystem.cpp.o CMakeFiles/ProyectoFinder.dir/Entega1Demo.cpp.o | /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtGui.framework/Versions/A/QtGui /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore || ProyectoFinder_autogen ProyectoFinder_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.6
   LINK_LIBRARIES = -Wl,-rpath,/Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib  /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtGui.framework/Versions/A/QtGui  -framework AppKit  -framework OpenGL  -framework ImageIO  -framework Metal  /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework UniformTypeIdentifiers
   LINK_PATH = -F/Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib

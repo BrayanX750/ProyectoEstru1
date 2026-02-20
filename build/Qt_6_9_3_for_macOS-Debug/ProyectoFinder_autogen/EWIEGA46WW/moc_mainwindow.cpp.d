@@ -725,6 +725,9 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
+  /Users/brayanpinel/Documents/ProyectoFinder/DirectoryNode.h \
+  /Users/brayanpinel/Documents/ProyectoFinder/FileSystem.h \
+  /Users/brayanpinel/Documents/ProyectoFinder/Node.h \
   /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
   /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/brayanpinel/Documents/QTTTT/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
